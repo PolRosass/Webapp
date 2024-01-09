@@ -10,7 +10,7 @@ body {
     min-height: -webkit-fill-available;    
     margin: 0px;    /* elimina tots els marges del document */
     font-family: sans-serif;    /* un tipus de lletra adient per a llocs web */
-    background-color: #FECFBF;    /* color de fons en */
+    background-color: #FCDEE0;    /* color de fons en format #RRGGBB */
 }
 
 #superior {
@@ -33,16 +33,17 @@ body {
     align-items: center;    /* contingut centrat en la direcció transversal */
     font-size: 4vmax;
 }
+#seccio_1 {
+    display: flex;    /* única secció que es mostra a l'inici */
+    justify-content: center;    /* contingut centrat en la direcció de disposició */
+    align-items: center;    /* contingut centrat en la direcció transversal */
+    font-size: 4vmax;
+}
 
 #menu {
     height: 8vmax;    /* alçària d'un 8% respecte l'alçària de la pantalla */
-}
-
-#menu {
     display: flex;    /* el menú és un contenidor de tipus flex */
-    height: 8vmax;
 }
-
 #menu i{
     flex: 1;    /* cada botó pretén ocupar tot l'espai disponible */
     display: flex;    /* contenidor flex on centrar-hi la icona */
